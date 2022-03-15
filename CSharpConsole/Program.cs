@@ -10,7 +10,28 @@ namespace CSharpConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello guy");
+            Console.WriteLine("How old are you?");
+            string input = Console.ReadLine();
+            Console.WriteLine($"You are {input} years old!");
+
+            Console.WriteLine("c_     ___			");
+            Console.WriteLine("  \\\\__|__|__		");
+            Console.WriteLine("　　 \\( o_o)		  ");
+            Console.WriteLine("　　　 > ~  >		 ");
+            Console.WriteLine("　　　/ 　 / \\\\	 ");
+            Console.WriteLine("　　 /　　/　 \\\\	");
+            Console.WriteLine("　　 \\　 )　　c/		");
+            Console.WriteLine("　　/　 /			 ");
+            Console.WriteLine("　 /　/|			  ");
+            Console.WriteLine("　(　( \\ 			");
+            Console.WriteLine("　|　|  \\ 		  ");
+            Console.WriteLine("　| / \\ )		   ");
+            Console.WriteLine("　| |　) |			 ");
+            Console.WriteLine(" /  )(_/				");
+            Console.WriteLine("(_ /                 ");
+
+            Console.WriteLine("press a key to Exit");
+            string exit = Console.ReadLine();
         }
     }
 }
